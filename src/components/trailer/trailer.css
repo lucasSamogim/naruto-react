@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@font-face {
+    font-family: "Ninja Naruto";
+    src: url(../../fonts/njnaruto.ttf);
+}
+
+.trailer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #F27141;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #FFF;
+}
+
+.sinopse-title {
+    font-family: "Ninja Naruto";
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.4rem;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 16px;
+    color: #FFF;
+    background-color: #0075A1;
+    outline: 0;
+    border: 2px solid #0075A1;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    padding: 12px 14px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 10px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #FFF;
+  background-position: 0 0;
+  color: #0075A1;
+}
+
+.button:active {
+  opacity: .5;
+}
+
+.trailer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.trailer {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+}
+
+@media (max-width: 780px) {
+    .trailer-container {
+        padding: 0;
+    }
+
+    .sinopse {
+        padding: 30px 15px;
+    }
+
+    .description {
+        font-size: 1rem;
+        line-height: 18px;
+    }
+
+    .trailer {
+        width: 90%;
+    }
+}

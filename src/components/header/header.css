@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Ninja Naruto";
+    src: url(../../fonts/njnaruto.ttf);
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    padding: 10px 100px;
+    background-color: #023E73;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.large-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.large-menu > li {
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Ninja Naruto";
+    font-size: 1.3rem;
+    color: #FFF;
+    transition: .1s;
+}
+
+.large-menu > li:hover {
+    color: #F54400;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburguer-menu {
+    width: 45px;
+}
+
+.menu-bars {
+    width: 35px;
+    height: 5px;
+    background-color: #FFF;
+    margin-bottom: 7px;
+    border-radius: 30px;
+    transition: 0.25s ease-in-out;
+}
+
+.small-menu {
+    display: none;
+    background-color: #023E73;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    width: 100%;
+    padding: 20px 0 10px 0;
+}
+
+.small-menu-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.small-menu-ul > li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: "Ninja Naruto";
+    font-size: 1.3rem;
+    color: #FFF;
+    transition: .1s;
+}
+
+.small-menu-ul > li:hover {
+    color: #F54400;
+}
+
+.show {
+    display: block;
+}
+
+@media (max-width: 780px)
+{
+    header {
+        padding: 10px 30px;
+    }
+
+    .large-menu {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
