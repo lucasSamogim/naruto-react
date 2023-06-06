@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Naruto React - Página Web Fictícia sobre o Anime Naruto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Naruto React](https://github.com/lucasSamogim/naruto-react/blob/main/src/assets/logo.png)
 
-## Available Scripts
+Bem-vindo ao repositório do projeto Naruto React, uma página web fictícia dedicada ao anime Naruto, desenvolvida utilizando a biblioteca React.js. Este projeto tem como objetivo demonstrar o uso de componentes reutilizáveis, rotas e recursos do React.
 
-In the project directory, you can run:
+## Funcionalidades Principais
 
-### `npm start`
+A página web do Naruto React é composta por 04 (quatro) seções, cada uma oferecendo uma interface diferente aos fãs do anime Naruto. Abaixo estão as principais funcionalidades implementadas neste projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Página Inicial (Home)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A seção de página inicial apresenta uma visão geral do projeto e oferece informações relevantes sobre o anime Naruto. Aqui, os usuários podem encontrar um resumo do enredo do anime clássico e Shippuden e um trailer do aniversário de 20 anos da série (vale a pena ver até o final).
 
-### `npm test`
+### Galeria de Fotos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A seção de fotos permite aos usuários explorar algumas imagens do anime Naruto. Os usuários podem navegar pelas imagens e, ao clicar em uma delas, têm a opção de fazer o download da imagem para o seu dispositivo.
 
-### `npm run build`
+### Comentários
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A seção de comentários é estática e recria o que seria uma página para os fãs da série deixar comentários.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contato
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Na seção de contato há um front-end de um formulário onde os usuários poderiam entrar em contato com os desenvolvedores.
 
-### `npm run eject`
+### Responsividade para Mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O projeto Naruto React foi desenvolvido com responsividade em mente, proporcionando uma experiência otimizada para dispositivos móveis. Além disso, foi implementado um botão de menu, que utiliza o useState hook do React para abrir e fechar o menu de navegação. O botão também alterna a imagem do menu entre um ícone de menu hamburguer e um ícone de fechar (X).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como Executar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para executar o projeto em sua máquina local, siga as instruções abaixo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone o repositório para o seu ambiente de desenvolvimento:
 
-## Learn More
+```
+git clone https://github.com/lucasSamogim/naruto-react.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navegue até o diretório clonado:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+cd naruto-react
+```
 
-### Code Splitting
+3. Instale as dependências necessárias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm install
+```
 
-### Analyzing the Bundle Size
+4. Inicie o servidor de desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm start
+```
 
-### Making a Progressive Web App
+5. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto em execução.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribuindo
 
-### Advanced Configuration
+Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma [issue](https://github.com/lucasSamogim/naruto-react/issues) ou enviar um [pull request](https://github.com/lucasSamogim/naruto-react/pulls). Todas as contribuições são bem-vindas!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+Esperamos que você aproveite explorando a página web fictícia do Naruto React e que este projeto sirva como um exemplo útil de desenvolvimento em React.js. Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Projeto de finalização do Módulo React do curso Profissão Programador.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Naruto React Logo](https://github.com/lucasSamogim/naruto-react/blob/main/src/assets/logo.png)
